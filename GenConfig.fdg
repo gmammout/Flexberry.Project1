@@ -16,7 +16,7 @@
         "Build": false,
         "GitClone": false,
         "GitPush": false,
-        "GhPagesPush": true,
+        "GhPagesPush": false,
         "EmberMetadata": false
       },
       "ApacheCordova": {
@@ -46,7 +46,7 @@
       },
       "PostgreSql": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
@@ -59,7 +59,7 @@
       },
       "Oracle": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "ConnectionString": null
       },
       "Access": {
@@ -69,8 +69,8 @@
       }
     },
     "Docs": {
-      "Csv": false,
-      "Wmf": false
+      "Csv": true,
+      "Wmf": true
     },
     "Metadata": {
       "Crp": false,
